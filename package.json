@@ -1,0 +1,27 @@
+{
+  "name": "prisma-aws-lambda-example",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson da Silva",
+    "email": "anderson.consultant.it@outlook.com"
+  },
+  "description": "AWS Serverless with Webpack, Prisma and Supabase Boilerplate",
+  "scripts": {
+    "start": "node index.js",
+    "prisma:introspect": "prisma introspect",
+    "prisma:generate": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.10.0",
+    "serverless-offline": "^8.5.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "prisma": "^3.10.0",
+    "serverless": "^2.72.3",
+    "serverless-dotenv-plugin": "3.12.2",
+    "serverless-webpack": "^5.6.1",
+    "serverless-webpack-prisma": "^1.0.10"
+  }
+}
