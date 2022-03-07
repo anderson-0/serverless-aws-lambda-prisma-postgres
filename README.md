@@ -8,6 +8,11 @@ npm install
 npx prisma migrate dev
 ```
 
+## Generate Prisma Client
+```bash
+npx prisma generate
+```
+
 ## Setup AWS Credentials
 ```bash
 serverless config credentials --provider aws --key <AWS_CLIENT_KEY>  --secret <AWS_CLIENT_SECRET>
